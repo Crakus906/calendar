@@ -1,0 +1,53 @@
+.calendar {
+    margin: 0 auto;
+    max-width: 75.1rem;;
+    // height: calc(100vh - 11rem);
+    // border-radius: 0.5rem;
+}
+.container {
+    // border-right: .5px solid#000000;
+}
+.week {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+.week-day {
+    width: 10.656rem;
+    height: 2.5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendarDay {
+    min-width: 10.656rem;
+    height: 5rem;
+    border-bottom: 0.5px solid #000000;
+    border-left: 0.5px solid #000000;
+    display: flex;
+    span {
+        padding: 0.4rem;
+    }
+}
+.day {
+    display: flex;
+    flex-wrap: wrap;    
+    border-right: .5px solid#000000;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.none {
+    min-width: 10.656rem;
+    height: 5rem;
+    border-bottom: 0.5px solid #000000;
+    border-left: 0.5px solid #000000;
+    display: flex;
+    background-color: rgb(202, 202, 202);
+    span {
+        padding: 0.4rem;
+    }
+}
